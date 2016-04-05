@@ -3,14 +3,6 @@
 # and checks if it is sorted. If the array is 
 # not sorted, shuffle again.
 
-# Prints the array
-def prints(i)
-    for x in (0...i.length)
-        print x, ", "
-    end 
-    print "\n"
-end
-
 # Checks if the array is sorted by calling
 # sort on a duplicate array.
 def isSorted? (i)
