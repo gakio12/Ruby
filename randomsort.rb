@@ -2,6 +2,8 @@
 # RandomSort shuffles an array in a random order
 # and checks if it is sorted. If the array is 
 # not sorted, shuffle again.
+#
+# Usage: $ ruby randomsort.rb <array size to sort>
 
 # Checks if the array is sorted by calling
 # sort on a duplicate array.
