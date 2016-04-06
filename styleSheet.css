@@ -74,6 +74,11 @@ h1 {
 	line-height: 30px;
 }
 
+#gist {
+	font-size: 14px;
+	line-height: 18px;
+}
+
 /*-------------------------------------
     Home page styling (index.html)
 -------------------------------------*/
