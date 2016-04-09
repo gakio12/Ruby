@@ -1,7 +1,6 @@
 require "helloify/version"
 
-module Helloify
-		
+module Helloify	
 	def self.printHelloWorld
 		puts "Hello World"
 	end
