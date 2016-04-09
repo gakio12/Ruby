@@ -9,30 +9,14 @@
 	</head>
 
 	<body>
-		<div class="Header-Wrapper"> 
-			<div id="Title-Logo-Wrapper">
-				<div class="logo-wrapper">
-					<img src="ruby.png" alt="Ruby Logo" id="logo">
-				</div>
-				
-				<div id="title">
-					<h1>Ruby Programming Language</h1>	
-				</div>
-			</div>
-
-			<div id="Nav-bar">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-                        		<li><a href="history.html">History</a></li>
-                        		<li><a href="features.html">Features</a></li>
-                        		<li><a href="usages.html">Usages</a></li>
-                        		<li><a href="why.html">Why?</a></li>
-                        		<li><a href="examples.html">Examples</a></li>
-                        		<li><a href="resources.html">Resources</a></li>
-                		</ul>
-			</div>
+		<div id="navBarTemplate">
+		<script>
+		$(function(){
+			$("#navBarTemplate").load("navBarTemplate.html");
+		});
+		</script>	
 		</div>
-
+	
 		<div id="content">
 			<h2>Resources</h2>
 
@@ -42,6 +26,7 @@
 			<li><a href="http://brew.sh/">http://brew.sh/</a></li>
 			<li><a href="http://stackoverflow.com/questions/1376592/what-is-ruby-used-for-besides-rails">http://stackoverflow.com/questions/1376592/what-is-ruby-used-for-besides-rails</a></li>
 			<li><a href="http://rubyonrails.org/">http://rubyonrails.org/</a></li>
+			<li><a href="http://skillcrush.com/2015/02/02/37-rails-sites/">http://skillcrush.com/2015/02/02/37-rails-sites/</a></li>
 			</ul>
             
             <h4>Resources used for the Why? page:</h4>

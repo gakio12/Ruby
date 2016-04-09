@@ -10,31 +10,15 @@
 	</head>
 
 	<body>
-		<div class="Header-Wrapper"> 
-			<div id="Title-Logo-Wrapper">
-				<div class="logo-wrapper">
-					<img src="ruby.png" alt="Ruby Logo" id="logo">
-				</div>
-				
-				<div id="title">
-					<h1>Ruby Programming Language</h1>	
-				</div>
-			</div>
 
-			<div id="Nav-bar">
-				<ul>
-					<li><a href="index.html">Home</a></li>
-                        		<li><a href="history.html">History</a></li>
-                        		<li><a href="features.html">Features</a></li>
-                        		<li><a href="usages.html">Usages</a></li>
-                        		<li><a href="why.html">Why?</a></li>
-                        		<li><a href="examples.html">Examples</a></li>
-                        		<li><a href="resources.html">Resources</a></li>
-                		</ul>
-			</div>
-		</div>
+		<div id="navBarTemplate">
+                <script>
+                $(function(){
+                        $("#navBarTemplate").load("navBarTemplate.html");
+                });
+                </script>
+                </div>
 
-		<!-- -------------------------Content goes here. Everything above stays the same.------------ -->		
 
 		<div id="content">
 			<h2 id="welcome-message">Welcome to Ruby!</h2>
