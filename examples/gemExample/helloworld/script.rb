@@ -1,0 +1,3 @@
+require "helloworld"
+
+Helloworld::printHelloWorld
