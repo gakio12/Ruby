@@ -7,10 +7,13 @@
 
 # Checks if the array is sorted by calling
 # sort on a duplicate array.
-def isSorted? (i)
+def isSorted? (i) # '?' is mostly a convention, it means the function's
+                  # return value should be treated as a boolean.
     i == i.sort
 end
 
+# Ruby has a built in ARGV array for any arguments passed when
+# executing the program.
 array = Array.new(ARGV[0].to_i) {rand(1...(ARGV[0].to_i * 8))}
 print "Original array: ", array, "\n"
 
